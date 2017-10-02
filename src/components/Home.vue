@@ -7,7 +7,8 @@
       <contact></contact>
     </div>
     <div class="main hero column">
-      <img class="grayscale" src="../assets/FaceImage.jpg">
+      <img class="grayscale run" src="../assets/RunImage.jpg">
+      <img class="grayscale headshot" src="../assets/FaceImage.jpg">
       <div class="me">
         <h2 class="me">Me:</h2>
       </div>
@@ -50,6 +51,7 @@
 import MainNav from './MainNav.vue'
 import About from './About.vue'
 import FaceImage from '../assets/FaceImage.jpg'
+import RunImage from '../assets/RunImage.jpg'
 import Portfolio from './Portfolio.vue'
 import Contact from './Contact.vue'
 import Bottom from './Bottom.vue'
@@ -72,7 +74,15 @@ export default {
   background-color: white;
 }
 
-img {
+img.headshot {
+  width: 50%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+img.run {
   width: 50%;
   height: 100vh;
   position: fixed;
