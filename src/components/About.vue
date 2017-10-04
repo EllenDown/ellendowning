@@ -1,13 +1,13 @@
 <template>
   <div class="about">
     <h3>Who Am I:</h3>
-    <p class="aboutText">Retired from a life in medical research at a young age to explore a career in the energizing, challenging, and inspiring field of web development. I am a go-getter, home baked right in Denver. Speaking of baking, I love to explore and animate with my community with edible experiences just like I find my own innate vitality semi-lost on a mountain trail. Based on the partially-educated but largely intuitive feeling that is brewing within, I believe that by pursuing an entrepreneurial life in technology and development I will achieve the constant chew of creativity my mind begs for and embolden the connection I have with this community and city I belong to.</p>
+    <img class="grayscale" src="../assets/PortfolioMap.png">
   </div>
 </template>
 
 <script>
 
-import AboutImage from '../assets/AboutImage.jpg'
+import PortfolioMap from '../assets/PortfolioMap.png'
 
 export default {
   name: 'about'
@@ -16,12 +16,21 @@ export default {
 
 <style scoped>
 
-.aboutText {
-  width: 80%;
-  line-height: 1.6rem;
-  letter-spacing: .1rem;
-  margin: auto;
-  margin-bottom: 30px;
+img.grayscale {
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: all .6s ease;
+  -webkit-backface-visibility: hidden;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 90%;
+  height: 100vh;
+}
+
+img.grayscale:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
 }
 
 h3 {
@@ -30,7 +39,7 @@ h3 {
   font-family: 'Unica One', cursive;
   border-left: thick solid black;
   padding-left: 20px;
-  outline-color: invert;
+  margin-left: 5%;
 }
 
 </style>

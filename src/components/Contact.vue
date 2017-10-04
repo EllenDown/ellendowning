@@ -3,10 +3,11 @@
     <div class="contactText">
       <h3>Contact:</h3>
     </div>
+    <div class="grid">
       <a href="https://www.linkedin.com/in/ellen-downing/"><img class="grayscale" src="../assets/LinkedIn.jpg"></a>
       <a href="https://github.com/EllenDown"><img class="grayscale" src="../assets/GitHub.jpg"></a>
       <a href="https://www.dropbox.com/s/unmvul5028fepin/EllenDowning-Resume.pdf?dl=0"><img class="grayscale" src="../assets/Resume.jpg"></a>
-
+      </div>
   </div>
 
 </template>
@@ -30,10 +31,17 @@ h3 {
   font-family: 'Unica One', cursive;
   border-left: thick solid black;
   padding-left: 20px;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
 
+.grid {
+  width: 80%;
+  margin-left: 10%;
+}
 img {
-  width: 32.8%;
+  width: 32.5%;
   height: 200px;
   position: relative;
 }

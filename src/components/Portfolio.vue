@@ -3,7 +3,9 @@
     <h3>Portfolio:</h3>
       <img class="grayscale" src="../assets/FeestLand.jpg">
       <img class="grayscale" src="../assets/ThymeShareLand.jpg">
-      <img  class="grayscale" src="../assets/cityBlockWide.jpg">
+      <img class="grayscale" src="../assets/cityBlockWide.jpg">
+      <img class="grayscale" src="../assets/MagpieImage.png">
+
     </div>
 </template>
 
@@ -12,6 +14,7 @@
 import FeestLand from '../assets/FeestLand.jpg'
 import cityBlockWide from '../assets/cityBlockWide.jpg'
 import ThymeShareLand from '../assets/ThymeShareLand.jpg'
+import MagpieImage from '../assets/MagpieImage.png'
 
 export default {
   name: 'portfolio',
@@ -21,12 +24,14 @@ export default {
 <style scoped>
 
 .portfolio {
+  margin-top: 5%;
   margin-bottom: 30px;
 }
 
 img {
-  width: 100%;
-  height: 30vh;
+  width: 90%;
+  margin: auto;
+  height: 35vh;
 }
 
 img.grayscale {
@@ -46,7 +51,7 @@ img.grayscale {
     font-family: 'Unica One', cursive;
     border-left: thick solid black;
     padding-left: 20px;
-    outline-color: invert;
+    margin-bottom: 5%;
   }
 
 </style>

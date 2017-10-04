@@ -2,9 +2,7 @@
   <footer class="footer">
   <div class="container">
     <div class="content has-text-centered">
-      <p>
-        <p class="is-danger"><strong>made with <span className="footer_gradient_text">&hearts;</span> by <a href="https://github.com/block-squad/"> Ellen Downing</a></strong></p>
-      </p>
+        <p class="is-danger"><strong>made with <span className="footer_gradient_text">&hearts;</span> by Ellen Downing</strong></p>
     </div>
   </div>
   </footer>
@@ -20,6 +18,7 @@ export default {
 <style>
 
 .footer {
-  width: 50%;
+  background-color: white;
+  height: 1vh;
 }
 </style>

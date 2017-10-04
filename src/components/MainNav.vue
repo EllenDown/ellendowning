@@ -1,23 +1,24 @@
 <template>
   <div class="mainNav">
-    <nav class="navbar column">
+    <nav class="navbar container">
         <div class="navbar-brand">
           <router-link to="/" class="navbar-item column">
             <div class="name">
-              <h1 class="logo">Ellen Louise Downing</h1>
+              <h1 class="logo">Ellen Downing</h1>
             </div>
             <div class="tagline">
               <p>Creation Via Elagantly Crafted Code</p>
             </div>
           </router-link>
-        </div>
-        <aside class="menu">
-          <ul class="menu-list">
-            <li><router-link to='/about' class="navbar-item">About</router-link></li>
-            <li><router-link to='/portfolio' class="navbar-item">Portfolio</router-link></li>
-            <li><router-link to='/contact' class="navbar-item">Contact</router-link></li>
-          </ul>
-        </aside>
+          </div>
+          <!-- <div class="navbar-menu"> -->
+            <div class="navbar-end">
+              <router-link to='/about' class="navbar-item">About</router-link>
+              <router-link to='/portfolio' class="navbar-item">Portfolio</router-link>
+              <router-link to='/contact' class="navbar-item">Contact</router-link>
+            </div>
+          <!-- </div> -->
+        <!-- </div> -->
     </nav>
   </div>
 
@@ -30,10 +31,6 @@ export default {
 </script>
 
 <style>
-
-nav {
-  border-right: 10px;
-}
 
 .navbar-brand {
   margin-bottom: 20px;
@@ -55,8 +52,4 @@ h1 {
   letter-spacing: .3rem;
 }
 
-li {
-  padding-top: 5px;
-  padding-bottom: 10px;
-}
 </style>
