@@ -11,14 +11,11 @@
             </div>
           </router-link>
           </div>
-          <!-- <div class="navbar-menu"> -->
             <div class="navbar-end">
               <router-link to='/about' class="navbar-item">About</router-link>
               <router-link to='/portfolio' class="navbar-item">Portfolio</router-link>
               <router-link to='/contact' class="navbar-item">Contact</router-link>
             </div>
-          <!-- </div> -->
-        <!-- </div> -->
     </nav>
   </div>
 

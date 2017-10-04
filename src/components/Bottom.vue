@@ -2,7 +2,7 @@
   <footer class="footer">
   <div class="container">
     <div class="content has-text-centered">
-        <p class="is-danger"><strong>made with <span className="footer_gradient_text">&hearts;</span> by Ellen Downing</strong></p>
+        <p class="is-danger"><strong>made with <span className="is-danger">&hearts;</span> by Ellen Downing</strong></p>
     </div>
   </div>
   </footer>
@@ -18,7 +18,13 @@ export default {
 <style>
 
 .footer {
+  font-family: 'Codystar', cursive;
+  color: red;
   background-color: white;
   height: 1vh;
+}
+
+span {
+  color: red;
 }
 </style>

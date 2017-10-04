@@ -1,10 +1,10 @@
 <template>
   <div class="portfolio">
     <h3>Portfolio:</h3>
-      <img class="grayscale" src="../assets/FeestLand.jpg">
-      <img class="grayscale" src="../assets/ThymeShareLand.jpg">
-      <img class="grayscale" src="../assets/cityBlockWide.jpg">
-      <img class="grayscale" src="../assets/MagpieImage.png">
+      <a href="https://feest-282ef.firebaseapp.com"><img class="grayscale" src="../assets/FeestLand.jpg"></a>
+      <a href="https://thymeshare-1501866686740.firebaseapp.com/"><img class="grayscale" src="../assets/ThymeShareLand.jpg"></a>
+      <a href="http://city-block.herokuapp.com/#/"><img class="grayscale" src="../assets/cityBlockWide.jpg"></a>
+      <a href="http://magpiesupply.com/"><img class="grayscale" src="../assets/MagpieImage.png"></a>
 
     </div>
 </template>
@@ -26,12 +26,13 @@ export default {
 .portfolio {
   margin-top: 5%;
   margin-bottom: 30px;
+  height: 148vh;
 }
 
 img {
   width: 90%;
   margin: auto;
-  height: 35vh;
+  height: 25%;
 }
 
 img.grayscale {
