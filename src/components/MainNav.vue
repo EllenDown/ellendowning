@@ -4,7 +4,7 @@
         <div class="navbar-brand">
           <router-link to="/" class="navbar-item column">
             <div class="name">
-              <h1 class="logo">Ellen Downing</h1>
+              <h1 class="logo">Ellen Louise Downing</h1>
             </div>
             <div class="tagline">
               <p>Creation Via Elagantly Crafted Code</p>
@@ -27,7 +27,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
 .navbar-brand {
   margin-bottom: 20px;
