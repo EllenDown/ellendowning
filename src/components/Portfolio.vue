@@ -31,7 +31,7 @@ export default {
 
 img {
   width: 90%;
-  margin: auto;
+  margin-left: 5%;
   height: 25%;
 }
 
@@ -52,6 +52,7 @@ img.grayscale {
     font-family: 'Unica One', cursive;
     border-left: thick solid black;
     padding-left: 20px;
+    margin-left: 5%;
     margin-bottom: 5%;
   }
 

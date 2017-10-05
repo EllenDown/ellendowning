@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <mainNav></mainNav>
-    <div class="columns">
+    <div class="columns is-desktop">
       <div class="column">
         <about></about>
         <img class="grayscale run" src="../assets/RunImage.jpg">
@@ -47,6 +47,9 @@ img {
 }
 
 img.headshot {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 12%;
   height: 100vh;
 }
 
@@ -69,5 +72,6 @@ img.grayscale:hover {
   filter: none;
   -webkit-filter: grayscale(0%);
 }
+
 
 </style>

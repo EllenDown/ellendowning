@@ -18,6 +18,7 @@ export default {
 <style scoped>
 
 .footer {
+  margin-top: 4%;
   font-family: 'Codystar', cursive;
   color: red;
   background-color: white;

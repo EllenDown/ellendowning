@@ -21,7 +21,7 @@ img.grayscale {
   -webkit-filter: grayscale(100%);
   -webkit-transition: all .6s ease;
   -webkit-backface-visibility: hidden;
-  margin-left: 10%;
+  margin-left: 5%;
   margin-top: 5%;
   margin-bottom: 5%;
   width: 90%;
