@@ -1,6 +1,6 @@
 <template>
   <div id="about" class="about">
-    <h3>Who Am I:</h3>
+    <h3>Who I Am:</h3>
     <img class="grayscale" src="../assets/PortfolioMap.png">
   </div>
 </template>
