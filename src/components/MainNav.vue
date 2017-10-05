@@ -29,8 +29,8 @@ export default {
 
 <style scoped>
 
-.navbar-brand {
-  margin-bottom: 20px;
+nav {
+  margin-bottom: 5%;
 }
 
 .navbar {
