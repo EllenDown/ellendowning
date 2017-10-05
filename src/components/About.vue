@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div id="about" class="about">
     <h3>Who Am I:</h3>
     <img class="grayscale" src="../assets/PortfolioMap.png">
   </div>

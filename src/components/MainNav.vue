@@ -2,19 +2,19 @@
   <div class="mainNav">
     <nav class="navbar container">
         <div class="navbar-brand">
-          <router-link to="/" class="navbar-item column">
+          <a href="#" class="navbar-item column">
             <div class="name">
               <h1 class="logo">Ellen Louise Downing</h1>
             </div>
             <div class="tagline">
               <p>Creation Via Elagantly Crafted Code</p>
             </div>
-          </router-link>
+          </a>
           </div>
             <div class="navbar-end">
-              <router-link to='/about' class="navbar-item">About</router-link>
-              <router-link to='/portfolio' class="navbar-item">Portfolio</router-link>
-              <router-link to='/contact' class="navbar-item">Contact</router-link>
+              <a class="navbar-item" @click.prevent="jump('#about')">About</a>
+              <a class="navbar-item" @click.prevent="jump('#portfolio')">Portfolio</a>
+              <a class="navbar-item" @click.prevent="jump('#contact')">Contact</a>
             </div>
     </nav>
   </div>
@@ -22,8 +22,17 @@
 </template>
 
 <script>
+
+import jump from 'jump.js'
+
 export default {
-  name: 'mainNav'
+  name: 'mainNav',
+  data() {
+    return {
+      mobile: false,
+      jump: jump
+    }
+  }
 }
 </script>
 

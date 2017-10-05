@@ -1,5 +1,5 @@
 <template>
-  <div class="portfolio">
+  <div id="portfolio" class="portfolio">
     <h3>Portfolio:</h3>
       <a href="https://feest-282ef.firebaseapp.com"><img class="grayscale" src="../assets/FeestLand.jpg"></a>
       <a href="https://thymeshare-1501866686740.firebaseapp.com/"><img class="grayscale" src="../assets/ThymeShareLand.jpg"></a>
