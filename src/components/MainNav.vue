@@ -27,12 +27,7 @@ import jump from 'jump.js'
 
 export default {
   name: 'mainNav',
-  data() {
-    return {
-      mobile: false,
-      jump: jump
-    }
-  }
+  
 }
 </script>
 

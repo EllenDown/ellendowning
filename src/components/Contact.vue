@@ -6,7 +6,7 @@
     <div class="grid">
       <a href="https://www.linkedin.com/in/ellen-downing/"><img class="grayscale" src="../assets/LinkedIn.jpg"></a>
       <a href="https://github.com/EllenDown"><img class="grayscale" src="../assets/GitHub.jpg"></a>
-      <a href="https://www.dropbox.com/s/unmvul5028fepin/EllenDowning-Resume.pdf?dl=0"><img class="grayscale" src="../assets/Resume.jpg"></a>
+      <a href="./static/EDResumePDF.pdf"><img class="grayscale" src="../assets/Resume.jpg"></a>
       </div>
   </div>
 
