@@ -1,6 +1,11 @@
 <template>
   <div id="portfolio" class="portfolio">
     <h3>Portfolio:</h3>
+      <a href="https://prspctv-1508732770742.firebaseapp.com/">
+        <div class="prspctvContainer">
+          <img class="grayscale prspctv" src="../assets/LogoBlueWhite.png">
+        </div>
+      </a>
       <a href="https://feest-282ef.firebaseapp.com"><img class="grayscale" src="../assets/FeestLand.jpg"></a>
       <a href="https://thymeshare-1501866686740.firebaseapp.com/"><img class="grayscale" src="../assets/ThymeShareLand.jpg"></a>
       <a href="http://city-block.herokuapp.com/#/"><img class="grayscale" src="../assets/cityBlockWide.jpg"></a>
@@ -11,6 +16,7 @@
 
 <script>
 
+import LogoBlueWhite from '../assets/LogoBlueWhite.png'
 import FeestLand from '../assets/FeestLand.jpg'
 import cityBlockWide from '../assets/cityBlockWide.jpg'
 import ThymeShareLand from '../assets/ThymeShareLand.jpg'
@@ -32,7 +38,7 @@ export default {
 img {
   width: 90%;
   margin-left: 5%;
-  height: 25%;
+  height: 20%;
 }
 
 img.grayscale {
@@ -45,6 +51,25 @@ img.grayscale {
   img.grayscale:hover {
     filter: none;
     -webkit-filter: grayscale(0%);
+  }
+
+  .prspctvContainer {
+    width: 90%;
+    margin-left: 5%;
+    height: 20%;
+    background-color: black;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .prspctv {
+    vertical-align: middle;
+    width: 50%;
+    height: 200px;
+    margin-top: 2%;
+    margin-left: 25%;
+
+    /*width: 300px;*/
   }
 
   h3 {
