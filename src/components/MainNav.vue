@@ -13,8 +13,8 @@
           </div>
             <div class="navbar-end">
               <a class="navbar-item" @click.prevent="jump('#about')">About</a>
-              <a class="navbar-item" @click.prevent="jump('#portfolio')">Portfolio</a>
-              <a class="navbar-item" @click.prevent="jump('#contact')">Contact</a>
+              <a class="navbar-item" @click.prevent="jump('#portfolio', {offset: -40})">Portfolio</a>
+              <a class="navbar-item" @click.prevent="jump('#contact', {offset: -40})">Contact</a>
             </div>
     </nav>
   </div>
@@ -27,8 +27,14 @@ import jump from 'jump.js'
 
 export default {
   name: 'mainNav',
-  
+  data() {
+    return {
+      mobile: false,
+      jump: jump
+    }
+  }
 }
+
 </script>
 
 <style scoped>
