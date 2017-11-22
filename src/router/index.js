@@ -1,7 +1,7 @@
 // import Vue from 'vue'
 // import Router from 'vue-router'
 // import Home from '@/components/Home'
-// import About from '@/components/About'
+// import About from '@/components/PrspctvRedirect'
 // import Portfolio from '@/components/Portfolio'
 // import Contact from '@/components/Contact'
 //
@@ -15,11 +15,11 @@
 //       component: Home
 //     },
 //     {
-//       path: '/about',
-//       name: 'About',
-//       component: About
-//     },
-//     {
+//       path: '/prspctvredirect',
+//       name: 'PrspctvRedirect',
+//       component: PrspctvRedirect
+//     }
+// //     {
 //       path: '/portfolio',
 //       name: 'Portfolio',
 //       component: Portfolio
