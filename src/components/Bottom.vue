@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
   <div class="container">
-    <div class="content has-text-centered">
+    <div class="content has-text-left">
         <p class="is-danger"><strong>made with <span className="is-danger">&hearts;</span> by Ellen Downing</strong></p>
     </div>
   </div>

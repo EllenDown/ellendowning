@@ -1,6 +1,7 @@
 <template>
   <div id="portfolio" class="portfolio">
     <h3>Portfolio:</h3>
+      <a href="https://www.havenly.com"><img class="grayscale" src="../assets/havenly.svg"></a>
       <a href="https://prspctv-1508732770742.firebaseapp.com/">
         <div class="prspctvContainer">
           <img class="grayscale prspctv" src="../assets/LogoBlueWhite.png">
@@ -16,6 +17,7 @@
 
 <script>
 
+import havenly from '../assets/havenly.svg'
 import LogoBlueWhite from '../assets/LogoBlueWhite.png'
 import FeestLand from '../assets/FeestLand.jpg'
 import cityBlockWide from '../assets/cityBlockWide.jpg'
